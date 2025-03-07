@@ -1,26 +1,22 @@
 [
     {
-        "name": "ICDAR 2025",
+        "name": "ITS 2025",
+        "full_name": "International Conference on Intelligent Tutoring Systems 2025",
         "dates": "September 17-21, 2025",
-        "location": "Wuhan, China",
-        "abstract_deadline": "February 28, 2025",
-        "submission_deadline": "March 7, 2025",
-        "tags": ["computer-vision"]
+        "location": "Alexandroupolis, Greece",
+        "abstract_deadline": "March 01, 2025",
+        "submission_deadline": "March 01, 2025",
+        "tags": ["tutoring-systems"],
+        "link": "https://iis-international.org/its2025-generative-systems/"
     },
     {
-        "name": "ICCV 2025",
-        "dates": "October 19-25, 2025",
-        "location": "Honolulu, Hawaii",
-        "abstract_deadline": "March 7, 2025",
-        "submission_deadline": "March 7, 2025",
-        "tags": ["machine-learning", "computer-vision"]
-    },
-    {
-        "name": "CoNLL 2025",
-        "dates": "July 31 - August 1, 2025",
-        "location": "Vienna, Austria",
-        "abstract_deadline": "March 15, 2025",
-        "submission_deadline": "March 15, 2025",
-        "tags": ["natural-language-processing"]
+        "name": "CSBC 2025",
+        "full_name": "Congresso da Sociedade Brasileira de Computação 2025",
+        "dates": "July 20-24, 2025",
+        "location": "Maceio, Alagoas",
+        "abstract_deadline": "March 24, 2025",
+        "submission_deadline": "March 24, 2025",
+        "tags": ["software engeniring", "computer science"],
+        "link": "https://csbc.sbc.org.br/2025/"
     }
 ]

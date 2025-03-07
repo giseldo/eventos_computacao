@@ -16,6 +16,23 @@
             <!-- Events will be loaded here by JavaScript -->
         </div>
     </div>
+    <div id="event-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2 id="modal-event-name"></h2>
+            <p><strong>Full Name:</strong> <span id="modal-event-full-name"></span></p>
+            <p><strong><i class="fa fa-calendar"></i> Dates:</strong> <span id="modal-event-dates"></span></p>
+            <p><strong><i class="fa fa-map-marker"></i> Location:</strong> <span id="modal-event-location"></span></p>
+            <p><strong>Abstract Deadline:</strong> <span id="modal-event-abstract-deadline"></span></p>
+            <p><strong>Submission Deadline:</strong> <span id="modal-event-submission-deadline"></span></p>
+            <p><strong>Time Remaining:</strong> <span id="modal-event-time-remaining"></span></p>
+            <p><strong>Tags:</strong> <div class="tags" id="modal-event-tags"></div></span></p>
+            <p><a id="modal-event-link" href="#" target="_blank">Visit website</a></p>
+        </div>
+    </div>
     <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+    <footer style="text-align: center;">
+        <p>by Giseldo Neo</p>
+    </footer>
 </body>
 </html>
