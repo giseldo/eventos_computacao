@@ -13,5 +13,5 @@ def get_events():
         events = json.load(f)
     return jsonify(events)
 
-if __name__ == '__main__':
-    app.run(debug=True)
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=7860)
